@@ -55,6 +55,13 @@ main {
   color: #fff;
 }
 
+.spanDesc {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.6;
+}
+
 .contentSection {
   display: flex;
   justify-content: space-between;
@@ -203,10 +210,10 @@ main {
   margin-top: 93px;
 }
 
-.cards {
+/*.cards {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
 .cardBlock {
   max-width: 319px;
@@ -232,4 +239,32 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.listBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 43px;
+}
+
+.alternativeDesc {
+  color: #e32966;
+}
+
+.imgScroll {
+  display: flex;
+  align-items: center;
+}
+
+.vectorLeft {
+  margin-right: 16px;
+}
+
+.vectorRight {
+  margin-left: 20px;
 }
