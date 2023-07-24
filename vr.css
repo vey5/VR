@@ -112,6 +112,16 @@ main {
   box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
 }
 
+.btnTable {
+  background: #e32966;
+  width: 274px;
+  border: 1.5px solid #e32966;
+  box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
+  background-image: url(images/ArrowTable.svg);
+  background-repeat: no-repeat;
+  background-position: right 15% center;
+}
+
 /* header */
 
 .header {
@@ -267,4 +277,89 @@ main {
 
 .vectorRight {
   margin-left: 20px;
+}
+
+.table {
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-spacing: 4px;
+  margin-bottom: 34px;
+}
+
+.table td {
+  background: rgba(196, 196, 196, 0.2);
+  text-align: center;
+  padding: 37px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.table th {
+  background-color: #1f1f22;
+  padding: 53px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.table tr:hover {
+  background-color: #162bed80;
+}
+
+.table tr {
+  transition: all 0.3s;
+}
+
+.secondaryContain {
+  margin-bottom: 107px;
+}
+
+.vrBlock {
+  max-width: 446px;
+  text-align: center;
+  height: 529px;
+  box-shadow: 0px 8px 24px 0px rgba(129, 135, 189, 0.15);
+  background: radial-gradient(
+      72.29% 44.07% at 50% 93.92%,
+      #a40a79 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      45.56% 43.91% at 4.78% 4.31%,
+      #008df3 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      67.34% 60.82% at 98.22% 1.22%,
+      #dc18c8 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(22, 43, 237, 0.5);
+}
+
+.subContent {
+  max-width: 281px;
+}
+
+.vrNumbers {
+  display: flex;
+  gap: 10px;
+  margin-top: 56px;
+  justify-content: center;
+}
+
+.vectorImg {
+  width: 12px;
+  height: 24px;
+}
+
+.spanDesc2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.spanDesc1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
 }
